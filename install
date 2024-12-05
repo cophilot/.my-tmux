@@ -1,4 +1,6 @@
 #!/bin/bash
 
 cd ~
+git clone https://github.com/cophilot/.my-tmux .my-tmux
 ln .my-tmux/.tmux.conf .tmux.conf
+echo "Done!"
