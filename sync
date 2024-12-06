@@ -1,0 +1,9 @@
+#!/bin/bash
+
+cd ~/.my-tmux
+
+if [ -n "$(git status --porcelain)" ]; then
+  git add .
+  git commit -m "sync"
+  git push
+fi
