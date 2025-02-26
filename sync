@@ -7,3 +7,5 @@ if [ -n "$(git status --porcelain)" ]; then
   git commit -m "sync"
   git push
 fi
+
+ln .my-tmux/.tmux.conf .tmux.conf -f
